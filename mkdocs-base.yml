@@ -14,6 +14,8 @@ nav:
           - FreshWaterBiodiversity.org: fbis.md
           - Rwanda Biodiversity Information System: rbis.md
           - Okavango Biodiversity Information System: orbis.md
+    - User Documentation: user-docs.md
+    - Administrator Documentation: admin/index.md
     - Resources:
           - Contributing: ./contributing.md
           - Media: media.md
