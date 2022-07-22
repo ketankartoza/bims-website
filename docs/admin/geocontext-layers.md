@@ -1,28 +1,4 @@
-# Overview of GeoContext Management
-
-In this guide we will explain the high level concepts of the GeoContext substystem which is used to derive location related data for each occurrence record added to RBIS.
-
-## GeoContext Workflows
-
-GeoContext is an independent service, available at <https://geocontext.kartoza.com/>. The purpose of GeoContext is to harvest data for point locations from a range of online databases. GeoContext allows you to register WMS/WFS/WCS layers in groups which in turn can be registered in a collection. You can then pass it a point locality and it will query every layer in the collection, returning a set of values, one for each layer under the point location.
-
-![Geocontext Overview](img/GeoContextWorkflows.width-800.png)
-
-As you can see from the above diagram, the workflow consist of three parts:
-
-1) Publishing layers under e.g. WMS
-
-2) Registering layers, groups and collections in the GeoContext service
-
-3) Registering the GeoContext service(s) with BIMS
-
-This tutorial will lead you through all of these steps. We expect that you are already familiar with platforms such as GeoNode, GeoServer and concepts such as OGC services. We also expect that you are familiar with and understand the basic operations and management of BIMS.
-
-The following youtube video walks through the steps described in this section of the documentation in detail with examples.
-
-[![Overview](img/geocontext-overview-youtube.png)](https://youtu.be/DkS6yvnuypc)
-
-## Publishing GeoContext and Visualisation Layers
+# Publishing GeoContext and Visualisation Layers
 
 This subsection describes how to publish layers as WMS (Web Mapping Services) for use by GeoContext or as Visualisation layers. BIMS deploys with an instance of GeoNode that can be used for publishing these layers, but you can use any standards compliant web mapping server for this purpose.
 
