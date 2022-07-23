@@ -1,4 +1,4 @@
-# See mkdocs base and the create-mkdocs* 
+# See mkdocs base and the create-mkdocs*
 # scripts for how this is used
 
 plugins:
@@ -8,20 +8,20 @@ plugins:
       # https://github.com/orzih/mkdocs-with-pdf
       # And don't get it confused with https://github.com/zhaoterryy/mkdocs-pdf-export-plugin
       # which is intended to export a single page at a time
-      output_path: ../pdfs/TheKartozaHandbook.pdf
-      author: Kartoza Pty (Ltd.)
-      # copyright will draw in page.bottom-right 
-      # do it manually in templates/styles.scss 
+      output_path: ../pdfs/TheBIMSHandbook.pdf
+      author: Kartoza & Fresh Water Research Centre
+      # copyright will draw in page.bottom-right
+      # do it manually in templates/styles.scss
       # for more control
       # if you comment out here or use an empty string,
       # the copyright text from mkdocs-base.yml will be
       # used instead
-      copyright: ' '
+      copyright: " "
       cover: true # see templates/cover.html
       back_cover: true
-      cover_title: The Kartoza Handbook
-      cover_subtitle: Mappiness is Happiness
-      cover_logo: ../resources/img/logo/kartoza-logo.svg
+      cover_title: The BIMS Handbook
+      cover_subtitle: Biodiversity Information Management System
+      cover_logo: ../resources/img/logo/bims-logo.svg
       # Print css is defined in templates/styles.scss
       #custom_template_path: TEMPLATES PATH
       #
@@ -48,7 +48,7 @@ plugins:
       #render_js: true
       #headless_chrome_path: headless-chromium
       #
-      
+
       #enabled_if_env: ENABLE_PDF_EXPORT
       # See notes at the top of templates/styles.scss.templ
       # for debugging workflow details.
