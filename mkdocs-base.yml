@@ -9,14 +9,19 @@ edit_uri: "https://github.com/kartoza/bims-website/blob/main/docs/"
 copyright: Kartoza and FRC
 
 nav:
-    - Home: index.md
-    - Instances:
-          - FreshWaterBiodiversity.org: fbis.md
-          - Rwanda Biodiversity Information System: rbis.md
-          - Okavango Biodiversity Information System: orbis.md
-    - User Documentation: user-docs.md
-    - Administrator Documentation: admin/index.md
-    - Resources:
-          - Contributing: ./contributing.md
-          - Media: media.md
-          - Links: links.md
+      - Home: index.md
+      - Instances:
+              - FreshWaterBiodiversity.org: fbis.md
+              - Rwanda Biodiversity Information System: rbis.md
+              - Okavango Biodiversity Information System: orbis.md
+      - User Documentation: user-docs.md
+      - Administrator Documentation:
+              - GeoContext Overview: "./admin/geocontext-overview.md"
+              - GeoContext and Visualisation Layers: "./admin/geocontext-layers.md"
+              - Working with GeoContext Data: "./admin/geocontext-data.md"
+              - Harvesting GeoContext Data: "./admin/geocontext-harvesting.md"
+
+      - Resources:
+              - Contributing: ./contributing.md
+              - Media: media.md
+              - Links: links.md
