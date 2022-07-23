@@ -32,12 +32,13 @@ To create a Location Context Group in BIMS, you need to know what layers are ret
 For instance, we want to create Location Context Group for Rwanda Catchments.
 
 First, check the output from GeoContext with this API :
-<https://geocontext.kartoza.com/api/v1/geocontext/value/group/29/-2.5/rwanda_catchments/>
-Note : Change rwanda_catchments in the url with GeoContext group you want to add.
+<https://staging.geocontext.kartoza.com/api/v2/query?registry=group&key=river_catchment_areas_group&x=24&y=-29&outformat=json>
+
+Note : Change river_catchment_areas_group in the url with GeoContext group you want to add.
 
 You will receive this data from GeoContext :
 
-![2020-09-08_14-06.png](img/2020-09-08_14-06.width-800.png)
+![image](https://user-images.githubusercontent.com/1979569/180606923-1b4a2336-3d6b-4a0b-a4e0-356795326804.png)
 
 There are two service registry values (layers), so you need to add them both to the Location Context Group to display all those layers in the filter.
 
