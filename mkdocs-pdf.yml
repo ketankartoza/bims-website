@@ -27,9 +27,9 @@ plugins:
       #
       toc_title: Contents
       #heading_shift: false
+      toc_level: 2
       # Set to 0 so that it does not generate chapter numbering
       # we do the numbering in styles.css rather
-      toc_level: 0
       ordered_chapter_level: 0
       #excludes_children:
       #    - 'release-notes/:upgrading'
