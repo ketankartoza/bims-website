@@ -95,7 +95,28 @@ html {
     color: $font-color;
 }
 
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
+.cover-logo {
+    background-image: url('file://[BASE_FOLDER]/docs/assets/logo.svg');
+    background-repeat: no-repeat;
+    width: 440px;
+    height: 440px;
+    z-index: 1000;
+    /* Center on page */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    width: 50%;
+    background-color: #fff;
+    /* ensures that svg stretches to fill the container */
+    background-size: contain; 
+} 
 
 @font-face {
     src: url(../assets/AvenirLTStd-Book.otf);
@@ -304,6 +325,7 @@ article h1 {
     color: $kartoza-orange;
     padding-top: 24px;
     text-decoration-style: double;
+    margin-bottom: 32px;
 }
 
 article h2 {

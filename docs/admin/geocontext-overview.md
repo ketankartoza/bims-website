@@ -16,6 +16,6 @@ As you can see from the above diagram, the workflow consist of three parts:
 
 This tutorial will lead you through all of these steps. We expect that you are already familiar with platforms such as GeoNode, GeoServer and concepts such as OGC services. We also expect that you are familiar with and understand the basic operations and management of BIMS.
 
-The following YouTube video walks through the steps described in this section of the documentation in detail with examples.
+The following YouTube video walks through the steps described in this section of the documentation in detail with examples. If you are viewing this as a PDF or on the web, you can click on the image below to open the YouTube video.
 
 [![Overview](img/geocontext-overview-youtube.png)](https://youtu.be/DkS6yvnuypc)
