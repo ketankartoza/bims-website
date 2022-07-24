@@ -12,36 +12,39 @@ xdg-open /tmp/output.html
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Source+Code+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100&display=swap');
 
 /* Sass property declarations */
 
-$kartoza-blue: #147CCD;
-$kartoza-orange: #F4B751;
-$kartoza-gray: #A5AAAD;
-$kartoza-blue-light: #cdedff;
-$kartoza-orange-light: #f4ebdb;
-$kartoza-gray-light: #eaeaea;
-$kartoza-blue-dark: #0082c7;
-$kartoza-orange-dark: #e79709;
-$kartoza-gray-dark: #3f3f3f;
+$primary-color: #147CCD;
+$secondary-color: #F4B751;
+$tertiary-color: #A5AAAD;
+$primary-color-light: #cdedff;
+$secondary-color-light: #f4ebdb;
+$tertiary-color-light: #eaeaea;
+$primary-color-dark: #0082c7;
+$secondary-color-dark: #e79709;
+$tertiary-color-dark: #3f3f3f;
 
 $font-size: 10pt;
-$code-font-size: 8pt;
 $font-color: #000;
+
+$code-font-size: 8pt;
+$code-font-family: 'Noto Sans Mono', monospace;
 
 $inline-code-background: #c2d4dd;
 
 $codeblock-label-font-color: white;
-$codeblock-label-background: $kartoza-blue;
-$codeblock-label-border: $kartoza-blue-dark;
-$codeblock-background: $kartoza-blue-light;
-$codeblock-border: $kartoza-blue;
+$codeblock-label-background: $primary-color;
+$codeblock-label-border: $primary-color-dark;
+$codeblock-background: $primary-color-light;
+$codeblock-border: $primary-color;
 
 $blockquote-label-font-color: white;
-$blockquote-label-background: $kartoza-orange;
-$blockquote-label-border: $kartoza-orange-dark;
-$blockquote-background: $kartoza-orange-light;
-$blockquote-border: $kartoza-orange;
+$blockquote-label-background: $secondary-color;
+$blockquote-label-border: $secondary-color-dark;
+$blockquote-background: $secondary-color-light;
+$blockquote-border: $secondary-color;
 
 /* CSS Reset Rules from https://perishablepress.com/a-killer-collection-of-global-css-reset-styles/ */
 
@@ -293,17 +296,17 @@ h3:before {
 }
 
 h1:before {
-    color: $kartoza-orange;
+    color: $secondary-color;
     content: counter(c1);
 }
 
 h2:before {
-    color: $kartoza-blue;
+    color: $primary-color;
     content: counter(c1) "." counter(c2);
 }
 
 h3:before {
-    color: $kartoza-gray;
+    color: $tertiary-color;
     content: counter(c1) "." counter(c2) "." counter(c3);
 }
 
@@ -323,23 +326,23 @@ h3 {
 
 
 article h1 {
-    border-bottom: 2px solid $kartoza-orange;
-    color: $kartoza-orange;
+    border-bottom: 2px solid $secondary-color;
+    color: $secondary-color;
     padding-top: 24px;
     text-decoration-style: double;
     margin-bottom: 32px;
 }
 
 article h2 {
-    border-bottom: 1px solid $kartoza-blue;
-    color: $kartoza-blue;
+    border-bottom: 1px solid $primary-color;
+    color: $primary-color;
     padding-top: 12px;
     margin-bottom: 12px;
 }
 
 article h3 {
     border-bottom: none;
-    color: $kartoza-gray;
+    color: $tertiary-color;
     padding-top: 8px;
     margin-bottom: 8px;
 }
@@ -408,6 +411,7 @@ pre code {
     min-width: 100px;
     padding: 0;
     font-size: $code-font-size;
+    font-family: $code-font-family;
     /* margin: 1em 3em; */
     padding: 1em 1em;
     margin-left: 8px;
