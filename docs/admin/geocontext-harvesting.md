@@ -19,7 +19,7 @@ Find Geocontext keys field
 * Click **Save** when you're done
 * Now the system will check these keys to fetch GeoContext data for new sites
 
-> Make sure that the key exists in the GeoContext, to check you can use this api : [https://geocontext.kartoza.com/api/v1/geocontext/value/group/1/1/{geocontext_key}/](GeoContext API) change the geocontext_key in the url with the key you want to check
+> Make sure that the key exists in the GeoContext, to check you can use this api : [https://staging.geocontext.kartoza.com/api/v1/geocontext/value/group/1/1/{geocontext_key}/](GeoContext API) change the geocontext_key in the url with the key you want to check
 
 ## Creating a Location Context Group in BIMS
 
@@ -114,16 +114,23 @@ Show in side panel (optional) - Whether to show this data in the side panel or n
 
 Click **Save** when you've done.
 
-## Harvesting GeoContext data when sites change
-
-In this section we describe the process of updating GeoContext associated with sites when the location or content of those sites change.
-
-![BIMS GeoContext Harvesting On Site CRUD](img/BIMSGeoContextHarvestingOnSiteCRUD.width-800.png)
-
-Will be added later
-
 # Updating GeoContext data for sites using the admin panel
 
 In this article we describe the process of updating the GeoContext data in one or more sites using the admin panel.
 
 ![BIMS GeoContext Harvesting Admin Command](img/BIMSGeoContextHarvestingAdminCommand.width-800.png)
+
+To update GeoContext data for existing sites please follow these steps : 
+* Open Location Sites admin page 
+* Select the sites you want to update the geocontext data
+
+![BIMS Location Site Update Geocontext](img/location_sites_update_geocontext_1.png)
+
+* Select 'Update location context data for selected sites in background.' in the dropdown located at the bottom of the page
+
+![BIMS Location Site Update Geocontext Command](img/location_sites_update_geocontext_2.png)
+
+* Click **Go**. The system will try to update the geocontext data in the background
+* To see the geocontext status open one of the previously selected location sites, scroll down to location context section to view all geocontext data and check if your geocontext data has been retrieved : 
+
+![BIMS Location Site Update Geocontext Status](img/location_sites_update_geocontext_3.png)
