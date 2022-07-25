@@ -1,5 +1,7 @@
 # Biodiversity Information Management System
 
+![LOGO](assets/logo.svg)
+
 Welcome to the Biodiversity Information Management System (BIMS) home page!
 
 BIMS is a platform for managing and visualising biodiversity data.
