@@ -6,7 +6,7 @@ This subsection describes how to publish layers as WMS (Web Mapping Services) fo
 
 First let us define the terms 'GeoContext Layer' and 'Visualisation Layer':
 
-1. **GeoContext** layers are layers that you publish online as an OGC web service with the explicit intention that these layers are harvested by the <https://geocontext.kartoza.com> GeoContext service.
+1. **GeoContext** layers are layers that you publish online as an OGC web service with the explicit intention that these layers are harvested by the <https://staging.geocontext.kartoza.com> GeoContext service.
 
 1. **Visualisation** layers are used in the layer selector in BIMS and allow the user to add map overlays in the BIMS map view - for example to show soil types or catchment boundaries on the map.
 
@@ -56,11 +56,11 @@ Save the service URL that is now in your clipboard e.g.:
 
 ## Adding a non-biodiversity layer to FBIS
 
-In this guide we will show you how to publish a non-biodiversity layer in RBIS. Non-biodiversity layers can be displayed on top of the base map in RBIS to provide insights about the spatial situation of collection sites.
+In this guide we will show you how to publish a non-biodiversity layer in FBIS. Non-biodiversity layers can be displayed on top of the base map in FBIS to provide insights about the spatial situation of collection sites.
 
 ![Non-Biodiversity Layer](img/NonBiodiversityLayer.width-800.png)
 
-In order to add a layer to the RBIS, follow these steps :
+In order to add a layer to the FBIS, follow these steps :
 
 * Go to admin page
 * Click non biodiversity layer section

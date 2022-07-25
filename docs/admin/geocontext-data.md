@@ -10,9 +10,9 @@ A GeoContext collection is a set up web map services that can be queried in orde
 
 ![GeoContext Collection](img/GeoContextCollection.width-800.png)
 
-From GeoContext collection [admin page](https://geocontext.kartoza.com/admin/geocontext/contextcollection/) click **Add context collection button** to create a new collection
+From GeoContext collection [admin page](https://staging.geocontext.kartoza.com/admin/geocontext/collection/) click **Add collection button** to create a new collection
 
-![Add button](img/2020-09-08_09-36.width-500.png)
+![Add button](img/add_collection.png)
 
 Fill out the required fields :
 
@@ -29,7 +29,7 @@ A GeoContext group is a subset of layers from a GeoContext collection that form 
 
 ### Adding groups to existing collection
 
-* From the [GeoContext Collection](https://geocontext.kartoza.com/admin/geocontext/contextcollection/) admin page, open the collection that you want to add groups to.
+* From the [GeoContext Collection](https://staging.geocontext.kartoza.com/admin/geocontext/collection/) admin page, open the collection that you want to add groups to.
 * From the Context groups section click **Add another collection group** link
 * Find existing group that you want to add to the group.
 * If you want to create a new group, click + sign next to the dropdown. See **Adding new Group** to learn how to create a new group from scratch.
@@ -41,7 +41,6 @@ You can arrange the group order as follows:
 * Update the order text manually
 * Or move the group by dragging the move item icon that is located on the far right before the x sign
 
-*
 In order to remove group from the group just click the **x** sign
 
 ![2020-09-08_10-24.png](img/2020-09-08_10-24.width-500.png)
@@ -66,7 +65,7 @@ In this sectio we describe how you add a layer to a GeoContext group. A layer is
 
 ### Adding Layers to an Existing GeoContext Group
 
-* From the [GeoContext group](https://geocontext.kartoza.com/admin/geocontext/contextgroup/) admin page, open the group that you want to add layers to.
+* From the [GeoContext group](https://staging.geocontext.kartoza.com/admin/geocontext/group/) admin page, open the group that you want to add layers to.
 * From the Context group services section click **Add another context group service** link
 * Find existing layer that you want to add to the group.
 * If you want to create a new layer, click + sign next to the dropdown. See **Adding new Layer** to learn how to create a new layer from scratch.
