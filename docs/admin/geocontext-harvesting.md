@@ -4,16 +4,16 @@ In this section we explain the process of configuring BIMS to harvest GeoContext
 
 ![BIMS GeoContext Harvesting](img/BIMSGeoContextHarvesting.width-800.png)
 
-## Configuring site settings for GeoContext
+## Configuring geocontext settings for GeoContext
 
-This section describes how to configure your site settings to harvest GeoContext data for each site.
+This section describes how to configure your geocontext settings to harvest GeoContext data for each site.
 
 ![BIMS GeoContext Harvesting Settings](img/BIMSGeoContextHarvestingSettings.width-800.png)
 
-Open site settings in admin page
-Find Geocontext keys field
+Open geocontext settings in admin page
+Find Geocontext group keys field
 
-![2020-09-08_13-37.png](img/2020-09-08_13-37.width-800.png)
+![image](https://user-images.githubusercontent.com/1979569/181168738-d0af2f93-3110-44c6-9a68-3192204f004e.png)
 
 * Add the GeoContext group keys in this field, use commas to separate multiple keys
 * Click **Save** when you're done
