@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="Kartoza and FRC" name="author"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<title>Contributing - BIMS</title>
+<link href="../css/bootstrap.min.css" rel="stylesheet"/>
+<link href="../css/font-awesome.min.css" rel="stylesheet"/>
+<link href="../css/base.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" rel="stylesheet"/>
+<script defer="" src="../js/jquery-1.10.2.min.js"></script>
+<script defer="" src="../js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<link href="../../pdfs/TheBIMSHandbook.pdf" rel="alternate" title="PDF" type="application/pdf"/></head>
+<body>
+<div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+<div class="container">
+<a class="navbar-brand" href="..">BIMS</a>
+<!-- Expander button -->
+<button class="navbar-toggler" data-target="#navbar-collapse" data-toggle="collapse" type="button">
+<span class="navbar-toggler-icon"></span>
+</button>
+<!-- Expanded navigation -->
+<div class="navbar-collapse collapse" id="navbar-collapse">
+<!-- Main navigation -->
+<ul class="nav navbar-nav">
+<li class="navitem">
+<a class="nav-link" href="..">Home</a>
+</li>
+<li class="dropdown">
+<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Instances <b class="caret"></b></a>
+<ul class="dropdown-menu">
+<li>
+<a class="dropdown-item" href="../fbis/">FreshWaterBiodiversity.org</a>
+</li>
+<li>
+<a class="dropdown-item" href="../rbis/">Rwanda Biodiversity Information System</a>
+</li>
+<li>
+<a class="dropdown-item" href="../orbis/">Okavango Biodiversity Information System</a>
+</li>
+</ul>
+</li>
+<li class="navitem">
+<a class="nav-link" href="../user-docs/">User Documentation</a>
+</li>
+<li class="dropdown">
+<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Administrator Documentation <b class="caret"></b></a>
+<ul class="dropdown-menu">
+<li class="dropdown-submenu">
+<a class="dropdown-item" href="#">Biodiversity Data</a>
+<ul class="dropdown-menu">
+<li>
+<a class="dropdown-item" href="../admin/biodiversity-data-overview/">Biodiversity Data Overview</a>
+</li>
+<li>
+<a class="dropdown-item" href="../admin/master-list-preparation/">Preparing and checking a Master List of Taxa before uploading</a>
+</li>
+<li>
+<a class="dropdown-item" href="../admin/occurence-data-preparation/">Preparing and checking an Occurrence Data File before uploading</a>
+</li>
+<li>
+<a class="dropdown-item" href="../admin/taxon-group-uploading/">Uploading a new Taxon Group (Module) and adding a Master List of Taxa for the Taxon Group</a>
+</li>
+<li>
+<a class="dropdown-item" href="../admin/occurrence-data-uploading/">Uploading Occurrence Data</a>
+</li>
+<li>
+<a class="dropdown-item" href="../admin/havesting-gbif-data/">Harvesting GBIF Data</a>
+</li>
+<li>
+<a class="dropdown-item" href="../admin/taxa-management/">Managing taxa in Taxon Management</a>
+</li>
+</ul>
+</li>
+<li class="dropdown-submenu">
+<a class="dropdown-item" href="#">Working with GeoServer</a>
+<ul class="dropdown-menu">
+<li>
+<a class="dropdown-item" href="../geoserver/geoserver-overview/">GeoServer Overview</a>
+</li>
+<li>
+<a class="dropdown-item" href="../geoserver/loading-postgis-layers/">Loading layers into a PostgreSQL database</a>
+</li>
+<li>
+<a class="dropdown-item" href="../geoserver/publishing-layers-in-geoserver/">Publishing layers in GeoServer</a>
+</li>
+<li>
+<a class="dropdown-item" href="../geoserver/styling-layers-in-geoserver/">Styling layers in GeoServer</a>
+</li>
+<li>
+<a class="dropdown-item" href="../geoserver/visualising-geoserver-layers-in-qgis/">Visualising GeoServer layers in QGIS</a>
+</li>
+</ul>
+</li>
+<li class="dropdown-submenu">
+<a class="dropdown-item" href="#">GIS Data in BIMS</a>
+<ul class="dropdown-menu">
+<li>
+<a class="dropdown-item" href="../admin/geocontext-overview/">GeoContext Overview</a>
+</li>
+<li>
+<a class="dropdown-item" href="../admin/geocontext-layers/">GeoContext and Visualisation Layers</a>
+</li>
+<li>
+<a class="dropdown-item" href="../admin/geocontext-data/">Working with GeoContext Data</a>
+</li>
+<li>
+<a class="dropdown-item" href="../admin/geocontext-harvesting/">Harvesting GeoContext Data</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="dropdown active">
+<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Resources <b class="caret"></b></a>
+<ul class="dropdown-menu">
+<li>
+<a class="dropdown-item active" href="./">Contributing</a>
+</li>
+<li>
+<a class="dropdown-item" href="../media/">Media</a>
+</li>
+<li>
+<a class="dropdown-item" href="../links/">Links</a>
+</li>
+</ul>
+</li>
+</ul>
+<ul class="nav navbar-nav ml-auto">
+<li class="nav-item">
+<a class="nav-link" href="../admin/geocontext-harvesting/" rel="prev">
+<i class="fa fa-arrow-left"></i> Previous
+                                </a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="../media/" rel="next">
+                                    Next <i class="fa fa-arrow-right"></i>
+</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="https://github.com/kartoza/bims-website/blob/main/docs/contributing.md">Edit on BIMS Website</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="row">
+<div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+<div class="navbar-header">
+<button class="navbar-toggler collapsed" data-target="#toc-collapse" data-toggle="collapse" title="Table of Contents" type="button">
+<span class="fa fa-angle-down"></span>
+</button>
+</div>
+<div class="navbar-collapse collapse card bg-secondary" id="toc-collapse">
+<ul class="nav flex-column">
+<li class="nav-item" data-level="1"><a class="nav-link" href="#contributing">Contributing</a>
+<ul class="nav flex-column">
+<li class="nav-item" data-level="2"><a class="nav-link" href="#pull-request-steps">🔧 Pull Request Steps</a>
+<ul class="nav flex-column">
+</ul>
+</li>
+<li class="nav-item" data-level="2"><a class="nav-link" href="#contributing_1">💬 Contributing</a>
+<ul class="nav flex-column">
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div></div>
+<div class="col-md-9" role="main">
+<h1 id="contributing">Contributing</h1>
+<h2 id="pull-request-steps">🔧 Pull Request Steps</h2>
+<p>This project is open source, so you can create a pull request(PR) after you fix issues. Get a local copy of the plugins checked out for development using the following process.</p>
+<h3 id="pull-request">Pull Request</h3>
+<p>Before uploading your PR, run test one last time to check if there are any errors. If it has no errors, commit and then push it!</p>
+<p>For more information on PR's steps, please see links in the Contributing section.</p>
+<h3 id="commit-messages">Commit messages</h3>
+<p>Please make this project more fun and easy to scan by using emoji prefixes for your
+commit messages (see <a href="https://gitmoji.dev/">GitMoji</a>).</p>
+<table>
+<thead>
+<tr>
+<th align="left">Commit type</th>
+<th align="left">Emoji</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Initial commit</td>
+<td align="left">🎉 <code>:tada:</code></td>
+</tr>
+<tr>
+<td align="left">Version tag</td>
+<td align="left">🔖 <code>:bookmark:</code></td>
+</tr>
+<tr>
+<td align="left">New feature</td>
+<td align="left">✨ <code>:sparkles:</code></td>
+</tr>
+<tr>
+<td align="left">Bugfix</td>
+<td align="left">🐛 <code>:bug:</code></td>
+</tr>
+<tr>
+<td align="left">Metadata</td>
+<td align="left">📇 <code>:card_index:</code></td>
+</tr>
+<tr>
+<td align="left">Documentation</td>
+<td align="left">📚 <code>:books:</code></td>
+</tr>
+<tr>
+<td align="left">Documenting source code</td>
+<td align="left">💡 <code>:bulb:</code></td>
+</tr>
+<tr>
+<td align="left">Performance</td>
+<td align="left">🐎 <code>:racehorse:</code></td>
+</tr>
+<tr>
+<td align="left">Cosmetic</td>
+<td align="left">💄 <code>:lipstick:</code></td>
+</tr>
+<tr>
+<td align="left">Tests</td>
+<td align="left">🚨 <code>:rotating_light:</code></td>
+</tr>
+<tr>
+<td align="left">Adding a test</td>
+<td align="left">✅ <code>:white_check_mark:</code></td>
+</tr>
+<tr>
+<td align="left">Make a test pass</td>
+<td align="left">✔️ <code>:heavy_check_mark:</code></td>
+</tr>
+<tr>
+<td align="left">General update</td>
+<td align="left">⚡️ <code>:zap:</code></td>
+</tr>
+<tr>
+<td align="left">Improve format/structure</td>
+<td align="left">🎨 <code>:art:</code></td>
+</tr>
+<tr>
+<td align="left">Refactor code</td>
+<td align="left">🔨 <code>:hammer:</code></td>
+</tr>
+<tr>
+<td align="left">Removing code/files</td>
+<td align="left">🔥 <code>:fire:</code></td>
+</tr>
+<tr>
+<td align="left">Continuous Integration</td>
+<td align="left">💚 <code>:green_heart:</code></td>
+</tr>
+<tr>
+<td align="left">Security</td>
+<td align="left">🔒 <code>:lock:</code></td>
+</tr>
+<tr>
+<td align="left">Upgrading dependencies</td>
+<td align="left">⬆️ <code>:arrow_up:</code></td>
+</tr>
+<tr>
+<td align="left">Downgrading dependencies</td>
+<td align="left">⬇️ <code>:arrow_down:</code></td>
+</tr>
+<tr>
+<td align="left">Lint</td>
+<td align="left">👕 <code>:shirt:</code></td>
+</tr>
+<tr>
+<td align="left">Translation</td>
+<td align="left">👽 <code>:alien:</code></td>
+</tr>
+<tr>
+<td align="left">Text</td>
+<td align="left">📝 <code>:pencil:</code></td>
+</tr>
+<tr>
+<td align="left">Critical hotfix</td>
+<td align="left">🚑 <code>:ambulance:</code></td>
+</tr>
+<tr>
+<td align="left">Deploying stuff</td>
+<td align="left">🚀 <code>:rocket:</code></td>
+</tr>
+<tr>
+<td align="left">Fixing on MacOS</td>
+<td align="left">🍎 <code>:apple:</code></td>
+</tr>
+<tr>
+<td align="left">Fixing on Linux</td>
+<td align="left">🐧 <code>:penguin:</code></td>
+</tr>
+<tr>
+<td align="left">Fixing on Windows</td>
+<td align="left">🏁 <code>:checkered_flag:</code></td>
+</tr>
+<tr>
+<td align="left">Work in progress</td>
+<td align="left">🚧  <code>:construction:</code></td>
+</tr>
+<tr>
+<td align="left">Adding CI build system</td>
+<td align="left">👷 <code>:construction_worker:</code></td>
+</tr>
+<tr>
+<td align="left">Analytics or tracking code</td>
+<td align="left">📈 <code>:chart_with_upwards_trend:</code></td>
+</tr>
+<tr>
+<td align="left">Removing a dependency</td>
+<td align="left">➖ <code>:heavy_minus_sign:</code></td>
+</tr>
+<tr>
+<td align="left">Adding a dependency</td>
+<td align="left">➕ <code>:heavy_plus_sign:</code></td>
+</tr>
+<tr>
+<td align="left">Docker</td>
+<td align="left">🐳 <code>:whale:</code></td>
+</tr>
+<tr>
+<td align="left">Configuration files</td>
+<td align="left">🔧 <code>:wrench:</code></td>
+</tr>
+<tr>
+<td align="left">Package.json in JS</td>
+<td align="left">📦 <code>:package:</code></td>
+</tr>
+<tr>
+<td align="left">Merging branches</td>
+<td align="left">🔀 <code>:twisted_rightwards_arrows:</code></td>
+</tr>
+<tr>
+<td align="left">Bad code / need improv.</td>
+<td align="left">💩 <code>:hankey:</code></td>
+</tr>
+<tr>
+<td align="left">Reverting changes</td>
+<td align="left">⏪ <code>:rewind:</code></td>
+</tr>
+<tr>
+<td align="left">Breaking changes</td>
+<td align="left">💥 <code>:boom:</code></td>
+</tr>
+<tr>
+<td align="left">Code review changes</td>
+<td align="left">👌 <code>:ok_hand:</code></td>
+</tr>
+<tr>
+<td align="left">Accessibility</td>
+<td align="left">♿️ <code>:wheelchair:</code></td>
+</tr>
+<tr>
+<td align="left">Move/rename repository</td>
+<td align="left">🚚 <code>:truck:</code></td>
+</tr>
+<tr>
+<td align="left">Other</td>
+<td align="left"><a href="http://www.emoji-cheat-sheet.com/">Be creative</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="contributing_1">💬 Contributing</h2>
+<ul>
+<li><a href="https://github.com/kartoza/django-bims/blob/master/CODE_OF_CONDUCT.md">Code of Conduct</a></li>
+<li><a href="https://github.com/kartoza/django-bims/blob/master/CONTRIBUTING.md">Contributing Guideline</a></li>
+<li><a href="https://github.com/kartoza/django-bims/blob/master/docs/COMMIT_MESSAGE_CONVENTION.md">Commit Convention</a></li>
+<li><a href="https://github.com/kartoza/django-bims/tree/master/.github/ISSUE_TEMPLATE">Issue Guidelines</a></li>
+</ul></div>
+</div>
+</div>
+<footer class="col-md-12">
+<hr/>
+<p>Kartoza and FRC</p>
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+</footer>
+<script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+<script defer="" src="../js/base.js"></script>
+<div aria-hidden="true" aria-labelledby="keyboardModalLabel" class="modal" id="mkdocs_keyboard_modal" role="dialog" tabindex="-1">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+<button class="close" data-dismiss="modal" type="button"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+</div>
+<div class="modal-body">
+<table class="table">
+<thead>
+<tr>
+<th style="width: 20%;">Keys</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="help shortcut"><kbd>?</kbd></td>
+<td>Open this help</td>
+</tr>
+<tr>
+<td class="next shortcut"><kbd>n</kbd></td>
+<td>Next page</td>
+</tr>
+<tr>
+<td class="prev shortcut"><kbd>p</kbd></td>
+<td>Previous page</td>
+</tr>
+<tr>
+<td class="search shortcut"><kbd>s</kbd></td>
+<td>Search</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="modal-footer">
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
