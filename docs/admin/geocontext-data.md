@@ -93,7 +93,7 @@ In order to create new layer you need to fill out the required fields:
 * **Name**
 * **Url** - Url of the layer service, e.g. if you use Geoserver then you can try following link : ``{geoserver_host}/geoserver/wfs``
 * **Query Type** - Query type of the layer, usually we use WFS
-* **Result Regex** - Regex to retrieve the desired value.
+* **Layer name** - Required name of the actual layer/feature to retrieve (Property name).
 * **Layer typename** - Layer type name to get the context.
 * **Service version** - Version of the service (e.g. WMS 1.1.0, WFS 2.0.0).
 
