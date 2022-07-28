@@ -71,19 +71,26 @@ img {
       See https://www.quackit.com/css/at-rules/css_bottom-left-corner_at-rule.cfm
       for a nice explanation of the margin properties for css print layouts */
 
-    /*
+
     @top-left-corner {
-        background: $logo-url;
+        @if $show-top-left-corner-logo {
+            background: $logo-url;
+        }
+
         background-repeat: no-repeat;
         background-position: 0% 0%;
         background-size: contain;
+        z-index: 99;
         //Hack needed or image will not show
         content: " ";
     }
-    */
+
+
     @top-left {
         /* Note this element gets obscured by top-center if it is solid. */
+        z-index: 95;
         content: $document-title;
+        color: $document-title-color;
     }
 
     @top-center {
@@ -111,10 +118,10 @@ img {
         background-size: contain;
         size: 210mm 22mm;
         border: none;
-        /* BASE FOLDER token will be replaced at compile time by our bash script. */
         background: $header-url;
         /* Hack needed or image will not show */
         content: " ";
+        z-index: 90;
     }
 
     @top-right {
@@ -162,7 +169,6 @@ img {
         background-position: 0% 0%;
         background-size: contain;
         size: 210mm 22mm;
-        /* BASE FOLDER token will be replaced at compile time by our bash script. */
         background: $footer-url;
         /* Note you cannot do concatenation in CSS content 
           except I figured out this little trick below TS */
