@@ -40,3 +40,7 @@ nav:
                   - Contributing: ./contributing.md
                   - Media: media.md
                   - Links: links.md
+        - Courses:
+            - Developing: training-cms.md
+            - Server Migration: training-server-migration.md
+            - GIS: training-gis.md
