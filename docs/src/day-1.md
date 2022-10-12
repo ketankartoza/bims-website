@@ -6,11 +6,6 @@ For deployment, we use docker, so you need to have docker running on the host
 
 `git clone git://github.com/kartoza/django-bims.git`
 
-`cd django-bims/deployment`
-
-`make build`
-
-`make dev`
 
 ## Docker and VSCode
 
