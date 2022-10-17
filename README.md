@@ -33,3 +33,27 @@ cd docs
 ./build-docs-pdf.sh
 xdg-open TheBIMSHandbook.pdf
 ```
+### How to edit the documentation online
+
+Go to the folders with the content:
+
+https://github.com/kartoza/bims-website/tree/main/docs/src
+
+
+Click on any of the files with .md extension then click the pencil to edit:
+
+![image](https://user-images.githubusercontent.com/178003/195879617-2bc4e14e-0d16-432a-a260-8e3de42013da.png)
+
+
+Editing the content uses exactly the same system as editing a ticket so you should hopefully feel at home there if you already have worked with GitHub issues. You can use the preview option to see how your changes look:
+
+![image](https://user-images.githubusercontent.com/178003/195879644-3238b4f4-ec38-4e00-935a-dc803da4fb1c.png)
+
+
+Once you are done editing, scroll down the page and write a short message explaining your changes (1) then choose commit directly to the main branch (2) then commit (3) 
+
+![image](https://user-images.githubusercontent.com/178003/195879687-9234d6bd-9d05-43d6-9e90-cff10c655278.png)
+
+
+Normally we would actually ask you to make a branch and a pull request, but use option (2) for now to keep things simple.
+Your changes should appear on the live site within a minute or so.
