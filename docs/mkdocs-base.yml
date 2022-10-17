@@ -40,7 +40,13 @@ nav:
                   - Contributing: ./contributing.md
                   - Media: media.md
                   - Links: links.md
-        - Courses:
-            - Developing: training-cms.md
-            - Server Migration: training-server-migration.md
-            - GIS: training-gis.md
+        - Developer Documentation:
+            - Understanding Open Source: developer-docs.md
+            - Overview of the platform architecture explaining: overview-platform.md
+            - Setting up your dev environment: setting-up-dev-env.md
+            - Debugging: debugging.md
+            - Software architecture overview: software-architecture.md
+            - Developer workflow: developer-workflow.md
+            - Data model: data-model.md
+            - Key development areas: key-development.md
+            - Troubleshooting and social integration into the project: troubleshooting.md
