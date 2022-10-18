@@ -113,4 +113,5 @@ docker cp PG_bims_gis.30-September-2022.dmp bims_dev_db:/tmp/PG_bims_gis.30-Sept
 docker exec -it bims_dev_db /bin/bash 
 cd tmp/
 pg_restore -d gis -p 5432 -U docker -h localhost -1 PG_bims_gis.30-September-2022.dmp
+
 ```
