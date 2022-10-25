@@ -50,11 +50,12 @@ tasks.
     `bims.tasks`
 
 ### Javascript
-* Backbone.js
-* Bootstrap
-* Highcharts
-* Jquery
-* OpenLayers
+
+BIMS uses several javascript's libraries to provide specific functionality in front-end. They are at `bims/static/js/libs`
+
+* **Backbone.js**: used in the map filters 
+* **Highcharts**: for the charts
+* **OpenLayers**: for the web mapping
 
 ### Settings
 
@@ -63,3 +64,7 @@ The django settings for BIMS can be found  in `core.settings`
 ### Docker/docker-compose
 
 ### Testing framework
+
+`bims/tests` Tests are used to separate the written code to test it and to determine if it works as expected. 
+
+BIMS used [factory_boy](https://factoryboy.readthedocs.io/en/stable/) library for test framework.
