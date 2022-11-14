@@ -71,8 +71,65 @@ git fetch upstream
 
 #### Working with branch
 
+A branch uses to isolate development work without affecting others in the repository. A repository contains one default 
+branch and can have multiple other branches.
+
+![Branch](img/branch.png)
+
+In **django-bims** the default branch is **main**.
+
+A branch allows you to develop features, fix bugs. Generally, you create a new branch from an existing one, most of the 
+time, from the default one.
+
+To list all branches:
+
+```
+git branch
+  csv_download
+  filter
+  gbif-link
+  landing_page
+  main
+  sa_province
+  sampling_method
+  sass
+  sorted_dropdown
+* taxon_rank_variety
+  unvalidated
+  update_site_code
+  upstream
+  wt
+
+```
+
+To create a new branch: 
+
+```
+git branch new_feature
+```
+
+To work on the new branch, switch to it and make your changes.
+
+```
+git checkout new_feature
+```
+
+Or if the branch does not exist:
+
+```
+git checkout -b new_feature
+```
+
+Using a pull request, you can merge a branch into another upstream branch.
+
 #### Pull Request (PR)
 
+A pull request or a PR is a manner for a developer to tell other collaborators about the change they have made.
+
+![PR](img/pr.png)
+
+Once you have submitted a PR, other contributors can review your work. You can push commits from your local branch to your 
+existing PR.
 
 [//]: # (maintaining separation between instance specific code and stuff that should be upstreamed)
 
@@ -84,7 +141,8 @@ git fetch upstream
 
 ![](img/ticket.png)
 
-### Patch and Pull Request <!--- making your patch, submitting a PR -->
+[//]: # (### Patch and Pull Request )
+<!--- making your patch, submitting a PR -->
 
 
 [//]: # (maintaining separation between instance specific code and stuff that should be upstreamed)
