@@ -133,13 +133,52 @@ existing PR.
 
 [//]: # (maintaining separation between instance specific code and stuff that should be upstreamed)
 
-### Tickets <!--- working to tickets (raise ticket, size ticket, project board, scrum sprint planning etc)-->
+#### Ticket <!--- working to tickets (raise ticket, size ticket, project board, scrum sprint planning etc)-->
+
+A ticket identifies and tracks issues at the repository. In GitHub, an issue refers to a ticket. A ticket typically 
+should create to:
+
+* Record any bugs encountered in the application
+* Propose any feature or enhancement
+* Define whether coding or non-coding task
 
 ![](img/tickets.png)
 
-#### Open new ticket
+Any PRs submitted to a repository must be linked to a ticket.
+
+##### Open new ticket
+
+When you open a ticket, it should be structured:
 
 ![](img/ticket.png)
+
+1. Title: it must be precise, clear, and as explicit as possible.
+2. Description: it should be straightforward but sufficient to describe the exact scope of work and the desired outcome.
+You can share a screenshot or a gif of the application as an additional explanation in the description. You can as well 
+include other tickets or PR as a reference.
+3. Tag or label: this is optional but can be very beneficial. A ticket can have multiple labels like:
+     * **bug**: something isn't working
+     * **enhancement**: new feature or request
+     * **Dashboards**: the key development is on the dashboard
+     * **Data upload**: the key development is on data upload 
+     * etc.
+4. Size: it is a label to set the time required to achieve a task or a ticket.
+     * **SIZE 2** means you need to spend 2 hours to complete a task
+     * **SIZE 5** means 5 hours
+
+##### Project board
+
+It is a feature of GitHub that you can use to organize tickets and track the work that needs to be done on the project. 
+Project Board is used as well to manage workflow across a repository. You can create a Project Board for a specific 
+feature work on a project or even a sprint and release.
+
+![project](img/project.png)
+
+The project board comprises issues, pull requests, and notes that are categorized as cards in columns. You can customize 
+columns on the board based on your process. You can drag and drop cards to reorder them in a column or move them to a 
+different column. A column represents a status.
+
+![](img/project_board.png)
 
 [//]: # (### Patch and Pull Request )
 <!--- making your patch, submitting a PR -->
