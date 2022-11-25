@@ -3,15 +3,15 @@
 The source code of django-bims is hosted on [GitHub](https://github.com/). You need a personal account on GitHub to be 
 able to create repositories or collaborate on other projects.
 
-### Getting code upstream
+### Getting Upstream Code
 
-In an open-source project, users must properly integrate their contributions with others. To ensure 
-that all contributors are pulling from the same place, you need to copy the upstream repository into a user's account, 
+In an open-source project, users must properly integrate their contributions with other contributions. To ensure
+that all contributors are pulling from the same place, you need to copy the upstream repository into a user's account,
 and git provides an option called _**fork**_.
 
 ![Fork the project](img/fork.png)
 
-Generally, after cloning the project, you have a remote **origin**
+Generally, after cloning the project, you have a remote **origin**:
 
 ```
 git remote -v
@@ -20,14 +20,14 @@ origin	git@github.com:kartoza/django-bims.git (fetch)
 
 ```
 
-The original repository refers to the **upstream**, and the forked repository refers to the **origin**. With the remote 
-command, you can easily add, rename or remove a remote.
+The **upstream** refers to the original repository, and the **origin** refers to the forked repository. With the remote
+command, you can easily add, rename or remove a remote source:
 
 ```
 git remote rename origin upstream
 ```
 
-Verify that you have **upstream** now.
+Verify that you have **upstream** now:
 
 ```
 git remote -v
@@ -36,13 +36,13 @@ upstream	git@github.com:kartoza/django-bims.git (push)
 
 ```
 
-To add the **origin** remote execute the following command.
+To add the remote **origin** execute the following command:
 
 ```
 git remote add origin git@github.com:yourusername/django-bims.git
 ```
 
-To check that the **origin** is added
+To check that the **origin** is added:
 
 ```
 git remote -v
@@ -53,33 +53,32 @@ upstream	git@github.com:kartoza/django-bims.git (push)
 
 ```
 
-#### Sync the latest code from upstream
+#### Sync the Latest Code from Upstream
 
-To keep your local code and the original's sync, you can fetch the latest version of the **upstream** repository.
-You can use these commands every time you want to get updates
+To keep your local code and the original repository in sync, you can fetch the latest version of the **upstream** repository.
+You can use these commands every time you want to get updates:
 
 ```
 git pull upstream main
 ```
 
-or,
+or
 
 ```
 git fetch upstream
 ```
 
+#### Working with Branches
 
-#### Working with branch
-
-A branch uses to isolate development work without affecting others in the repository. A repository contains one default 
-branch and can have multiple other branches.
+A branch is used to isolate development work without affecting other work in the repository. A repository contains one
+default branch and can have multiple other branches.
 
 ![Branch](img/branch.png)
 
 In **django-bims** the default branch is **main**.
 
-A branch allows you to develop features, fix bugs. Generally, you create a new branch from an existing one, most of the 
-time, from the default one.
+A branch allows you to develop features and fix bugs. Generally, you create a new branch from an existing one, usually
+from the default one.
 
 To list all branches:
 
@@ -102,45 +101,45 @@ git branch
 
 ```
 
-To create a new branch: 
+To create a new branch:
 
 ```
 git branch new_feature
 ```
 
-To work on the new branch, switch to it and make your changes.
+To work on the new branch, switch to it and make your changes:
 
 ```
 git checkout new_feature
 ```
 
-Or if the branch does not exist:
+Or if the branch does not exist, use this command to create it:
 
 ```
 git checkout -b new_feature
 ```
 
-Using a pull request, you can merge a branch into another upstream branch.
+You can merge a branch into another upstream branch using a Pull Request.
 
 #### Pull Request (PR)
 
-A pull request or a PR is a manner for a developer to tell other collaborators about the change they have made.
+A Pull Request, or PR, is a way for a developer to tell other collaborators about the change they have made.
 
 ![PR](img/pr.png)
 
-Once you have submitted a PR, other contributors can review your work. You can push commits from your local branch to your 
-existing PR.
+Once you have submitted a PR, other contributors can review your work. You can push commits from your local branch
+to your existing PR.
 
 [//]: # (maintaining separation between instance specific code and stuff that should be upstreamed)
 
 #### Ticket <!--- working to tickets (raise ticket, size ticket, project board, scrum sprint planning etc)-->
 
-A ticket identifies and tracks issues at the repository. In GitHub, an issue refers to a ticket. A ticket typically 
-should create to:
+A ticket identifies and tracks issues in the repository. In GitHub, an issue refers to a ticket. A ticket typically
+should be created to:
 
 * Record any bugs encountered in the application
 * Propose any feature or enhancement
-* Define whether coding or non-coding task
+* Define whether it is a coding or non-coding task
 
 ![](img/tickets.png)
 
@@ -154,29 +153,29 @@ When you open a ticket, it should be structured:
 
 1. Title: it must be precise, clear, and as explicit as possible.
 2. Description: it should be straightforward but sufficient to describe the exact scope of work and the desired outcome.
-You can share a screenshot or a gif of the application as an additional explanation in the description. You can as well 
-include other tickets or PR as a reference.
+You can share a screenshot or a gif of the application as an additional explanation in the description. You can also
+include other tickets or a PR as a reference.
 3. Tag or label: this is optional but can be very beneficial. A ticket can have multiple labels like:
      * **bug**: something isn't working
      * **enhancement**: new feature or request
      * **Dashboards**: the key development is on the dashboard
-     * **Data upload**: the key development is on data upload 
+     * **Data upload**: the key development is on data upload
      * etc.
 4. Size: it is a label to set the time required to achieve a task or a ticket.
      * **SIZE 2** means you need to spend 2 hours to complete a task
-     * **SIZE 5** means 5 hours
+     * **SIZE 5** means 5 hours are required.
 
 ##### Project board
 
-It is a feature of GitHub that you can use to organize tickets and track the work that needs to be done on the project. 
-Project Board is used as well to manage workflow across a repository. You can create a Project Board for a specific 
-feature work on a project or even a sprint and release.
+A Project Board is a feature of GitHub that you can use to organize tickets and track the work that needs to be done on
+the project. The Project Board is also used to manage workflow across a repository. You can create a Project Board for a
+specific feature, work on a project, or even a sprint and release.
 
 ![project](img/project.png)
 
-The project board comprises issues, pull requests, and notes that are categorized as cards in columns. You can customize 
-columns on the board based on your process. You can drag and drop cards to reorder them in a column or move them to a 
-different column. A column represents a status.
+The Project Board is comprised of issues, pull requests, and notes that are categorized as cards in columns. You can
+customize columns on the board based on your process. You can drag and drop cards to reorder them in a column or
+move them to a different column. A column represents the status of an issue.
 
 ![](img/project_board.png)
 
@@ -192,5 +191,4 @@ different column. A column represents a status.
 
 ### Deploying to production
 
-### Backups <!--- restoring backups , gettinng backups and basic sysadmin workflows-->
-
+### Backups <!--- restoring backups , getting backups and basic sysadmin workflows-->
