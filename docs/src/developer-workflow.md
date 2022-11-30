@@ -1,6 +1,6 @@
 # Developer workflow
 
-The source code of django-bims is hosted on [GitHub](https://github.com/). You need a personal account on GitHub to be 
+The source code of django-bims is hosted on [GitHub](https://github.com/). You need a personal account on GitHub to be
 able to create repositories or collaborate on other projects.
 
 ### Getting Upstream Code
@@ -181,7 +181,6 @@ move them to a different column. A column represents the status of an issue.
 
 [//]: # (### Patch and Pull Request )
 <!--- making your patch, submitting a PR -->
-
 
 [//]: # (maintaining separation between instance specific code and stuff that should be upstreamed)
 

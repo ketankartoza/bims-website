@@ -40,7 +40,7 @@ There are multiple Python libraries used in BIMS, like:
 
 * Django REST framework
 
-    BIMS provides Web APIs by using the [https://www.django-rest-framework.org/](django rest framework)
+    BIMS provides Web APIs by using the [django rest framework](https://www.django-rest-framework.org/)
 
     `bims.api_views`
 
