@@ -184,10 +184,11 @@ move them to a different column. A column represents the status of an issue.
 
 [//]: # (maintaining separation between instance specific code and stuff that should be upstreamed)
 
-### GitHub action
+[//]: # (### GitHub action)
 
-### Deploying to staging
+[//]: # (### Deploying to staging)
 
-### Deploying to production
+[//]: # ()
+[//]: # (### Deploying to production)
 
-### Backups <!--- restoring backups , getting backups and basic sysadmin workflows-->
+[//]: # (### Backups <!--- restoring backups , getting backups and basic sysadmin workflows-->)

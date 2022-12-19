@@ -47,6 +47,7 @@ nav:
             - Debugging: debugging.md
             - Software architecture overview: software-architecture.md
             - Developer workflow: developer-workflow.md
+            - Deploying a production on server: deploying-production.md
             - Data model: data-model.md
             - Key development areas: key-development.md
             - Troubleshooting and social integration into the project: troubleshooting.md
