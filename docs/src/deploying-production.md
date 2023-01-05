@@ -12,7 +12,7 @@ sudo apt install docker-compose docker.io git make
 ```
 cd ../
 sudo mkdir bims
-sudo chown kartoza:kartoaz bims
+sudo chown kartoza:kartoza bims
 cd bims
 git clone https://github.com/kartoza/django-bims.git
 
