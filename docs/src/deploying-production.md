@@ -3,7 +3,7 @@
 ```
 ssh usernamr@server_ip
 
-sudo apt install docker-compose docker.io git make
+sudo apt install docker-compose docker.io git make nginx
 
 ```
 
