@@ -27,8 +27,7 @@ This image extends the production one, adding ssh to it.
 Linux and MacOS:
 
 ```
-make build-devweb
-make devweb
+make dev
 ```
 
 ### Create a remote interpreter in PyCharm
