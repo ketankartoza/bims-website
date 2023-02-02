@@ -1,4 +1,6 @@
-# Preparing the server
+# Deploying into the server
+
+## Preparing the server
 
 ```
 ssh usernamr@server_ip
@@ -7,7 +9,9 @@ sudo apt install docker-compose docker.io git make nginx
 
 ```
 
-# Getting the code source
+## BIMS
+
+### Getting the code source
 
 ```
 cd ../
@@ -18,7 +22,7 @@ git clone https://github.com/kartoza/django-bims.git
 
 ```
 
-# Build docker images
+### Build docker images
 
 ```
 cd deployement
@@ -27,3 +31,27 @@ cd ../
 make web
 
 ```
+
+
+
+## GeoContext
+
+### Getting the code source
+
+```
+
+cd bims
+git clone https://github.com/kartoza/geocontext.git
+
+```
+
+### Build docker images
+
+```
+cd geocontext/deployment
+make build
+make start-web 
+
+```
+
+## NGINX Configuration
