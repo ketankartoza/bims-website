@@ -38,7 +38,7 @@ nav:
 
         - Resources:
                   - Contributing: ./contributing.md
-                  - Media: media.md
+                  - Citations: citations.md
                   - Links: links.md
         - Developer Documentation:
             - Understanding Open Source: developer-docs.md
