@@ -11,3 +11,9 @@ Helen Dallas, Jeremy Shelton, Tim Sutton, Dimas Tri Cuptura, Mohammed Kajee & Na
 https://www.tandfonline.com/doi/abs/10.2989/16085914.2021.1982672
 
 ----
+
+Kajee, Mohammed, Helen F. Dallas, Aneri Swanepoel, Charles L. Griffiths, and Jeremy M. Shelton. 2023. “The Freshwater Biodiversity Information System (FBIS) Fish Data: A Georeferenced Dataset of Freshwater Fishes Occurring in South Africa”. Journal of Limnology 82 (s1). 
+
+https://doi.org/10.4081/jlimnol.2023.2133.
+
+----
