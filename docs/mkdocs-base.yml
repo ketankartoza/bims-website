@@ -37,6 +37,7 @@ nav:
                 - Harvesting GeoContext Data: "./admin/geocontext-harvesting.md"
           - Customization:
                 - Embedding Video on the Landing Page: "./admin/embed-video-on-landing-page.md"
+                - Adding Inline Images on the Landing Page: "./admin/add-inline-images.md"
 
     - Resources:
           - Contributing: ./contributing.md
