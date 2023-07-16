@@ -36,6 +36,7 @@ nav:
                 - Working with GeoContext Data: "./admin/geocontext-data.md"
                 - Harvesting GeoContext Data: "./admin/geocontext-harvesting.md"
           - Customization:
+                - Adding a Landing Page Section: "./admin/adding-landing-page-section.md"
                 - Embedding Video on the Landing Page: "./admin/embed-video-on-landing-page.md"
                 - Adding Inline Images on the Landing Page: "./admin/add-inline-images.md"
 
