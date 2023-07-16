@@ -1,6 +1,6 @@
 # Biodiversity Information Management System
 
-![LOGO](../assets/logo.svg)
+![LOGO](img/logo.svg)
 
 Welcome to the Biodiversity Information Management System (BIMS) home page!
 

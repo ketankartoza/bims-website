@@ -1,6 +1,4 @@
-# Customizing Landing Page
-
-## Embedding Youtube Video on the Landing Page
+# Embedding Youtube Video on the Landing Page
 
 -   First, select the YouTube video you wish to show on the landing page
 -   Click the 'Share' button under the video
