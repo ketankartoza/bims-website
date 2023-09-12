@@ -17,3 +17,11 @@ Kajee, Mohammed, Helen F. Dallas, Aneri Swanepoel, Charles L. Griffiths, and Jer
 https://doi.org/10.4081/jlimnol.2023.2133.
 
 ----
+
+The past and current distribution of native and non-native fish in the Kowie River catchment, Makhanda, Eastern Cape
+Dumisani Khosa, Josie South, Ncumisa Y. Matam, Lubabalo Mofu, Ryan J. Wasserman and Olaf L.F. Weyl
+Knowl. Manag. Aquat. Ecosyst., 424 (2023) 3
+
+https://doi.org/10.1051/kmae/2022026
+
+----
