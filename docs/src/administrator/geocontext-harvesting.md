@@ -19,7 +19,7 @@ Find Geocontext group keys field
 * Click **Save** when you're done
 * Now the system will check these keys to fetch GeoContext data for new sites
 
-> Make sure that the key exists in the GeoContext, to check you can use this api : [https://staging.geocontext.kartoza.com/api/v1/geocontext/value/group/1/1/{geocontext_key}/](GeoContext API) change the geocontext_key in the url with the key you want to check
+> Make sure that the key exists in the GeoContext, to check you can use this api : `https://staging.geocontext.kartoza.com/api/v1/geocontext/value/group/1/1/{geocontext_key}/` and change the geocontext_key in the url with the key you want to check
 
 ## Creating a Location Context Group in BIMS
 

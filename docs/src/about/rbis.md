@@ -1,12 +1,12 @@
 # RBIS
 
-![RBIS](img/RBIS1.png)
+![RBIS](img/RBIS-1.png)
 
 Web Site: [https://rbis.ur.ac.rw/](https://rbis.ur.ac.rw/)
 
 We are CoEB - the Center of Excellence in Biodiversity and Natural Resource Management, Rwanda
 
-![RBIS](img/RBIS.png)
+![RBIS](img/RBIS-2.png)
 
 CoEB is a Rwandan Government institution that functions as a consortium of governmental and non-governmental organizations, bringing together expertise and skills to produce information needed for effective policy and science-driven economic transformation.  The Center is hosted at University of Rwanda and works in three areas: research and monitoring, bioprospecting, and conservation education and awareness raising.
 

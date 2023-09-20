@@ -7,7 +7,7 @@ This section provides a guide for biodiversity data administrators to mobilize a
 The sections covered include:
 
 * [Preparing and checking a Master List of Taxa before uploading](master-list-preparation.md)
-* [Preparing and checking an Occurrence Data File before uploading](occurence-data-preparation.md)
+* [Preparing and checking an Occurrence Data File before uploading](occurrence-data-preparation.md)
 * [Uploading a new Taxon Group (Module) and adding a Master List of Taxa for the Taxon Group](taxon-group-uploading.md)
 * [Uploading Occurrence Data](occurrence-data-uploading.md)
 * [Harvesting GBIF Data](havesting-gbif-data.md)

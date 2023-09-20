@@ -4,19 +4,19 @@
 
 * FBIS
 
-![FBIS1.png](img/FBIS1.png)
+![FBIS1.png](img/FBIS-1.png)
 
 * Okavango Repository for BIodiverSity Data (ORBIS)
 
-![ORBIS](img/ORBIS1.png)
+![ORBIS](img/ORBIS-1.png)
 
 * RBIS
 
-![RBIS](img/RBIS1.png)
+![RBIS](img/RBIS-1.png)
 
 ### Main map page
 
-![](img/FBIS.png)
+![](img/FBIS-2.png)
 
 ### Side panel
 
@@ -24,7 +24,7 @@
 
 ### Dashboards <!--- how to create modules-->
 
-![](img/RBIS.png)
+![](img/RBIS-2.png)
 
 ### Admin reports
 

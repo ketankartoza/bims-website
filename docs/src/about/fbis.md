@@ -1,12 +1,12 @@
 # FBIS
 
-![FBIS](img/FBIS1.png)
+![FBIS](img/FBIS-1.png)
 
 Web Site: [https://freshwaterbiodiversity.org/](https://freshwaterbiodiversity.org/)
 
 The Freshwater Biodiversity Information System (FBIS), South Africa.
 
-![FBIS](img/FBIS.png)
+![FBIS](img/FBIS-2.png)
 
 The FBIS serves as a community platform for inventory and maintenance of freshwater biodiversity data with an end goal to assist the evaluation of long-term change in river biodiversity and ecosystem condition in South Africa.
 

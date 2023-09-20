@@ -13,7 +13,7 @@ including Web Processing Service (WPS) and Web Map Tile Services (WMTS).
 
 ### Django
 
-BIMS is based on [Django](www.djangoproject.com), which is a high-level python web framework. Django follows the
+BIMS is based on [Django](https://www.djangoproject.com/), which is a high-level python web framework. Django follows the
 model-template-views architecture pattern.
 
 ### Celery
