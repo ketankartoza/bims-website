@@ -10,10 +10,10 @@ theme:
     - content.code.annotate
     - content.tabs.link
     - header.autohide
-    - navigation.expand
+#    - navigation.expand # This causes the nav menu to auto expand
     - navigation.indexes
     - navigation.instant
-    - navigation.sections
+#    - navigation.sections # This removes the ability to shrink sections on the nav menu but gives the bold headings
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.top
@@ -24,14 +24,14 @@ theme:
     - toc.follow
   palette:
     - scheme: default
-      primary: blue
-      accent: grey
+      primary: teal
+      accent: teal
       toggle:
         icon: material/brightness-4
         name: Switch to dark mode
     - scheme: slate
-      primary: blue
-      accent: grey
+      primary: teal
+      accent: teal
       toggle:
         icon: material/brightness-6
         name: Switch to light mode
@@ -50,10 +50,10 @@ extra:
       link: https://hub.docker.com/r/kartoza/
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/KartozaGeo
-    - icon: fontawesome/brands/facebook
-      link: https://kartoza.com
     - icon: fontawesome/solid/earth-africa
       link: https://kartoza.com
+    - icon: material/water
+      link: https://www.frcsa.org.za/
 
 extra_css:
   - css/print.css

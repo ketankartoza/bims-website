@@ -10,5 +10,5 @@ The sections covered include:
 * [Preparing and checking an Occurrence Data File before uploading](occurrence-data-preparation.md)
 * [Uploading a new Taxon Group (Module) and adding a Master List of Taxa for the Taxon Group](taxon-group-uploading.md)
 * [Uploading Occurrence Data](occurrence-data-uploading.md)
-* [Harvesting GBIF Data](havesting-gbif-data.md)
+* [Harvesting GBIF Data](harvesting-gbif-data.md)
 * [Managing taxa in Taxon Management](taxa-management.md)
