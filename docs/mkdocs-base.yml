@@ -45,7 +45,35 @@ nav:
                   - FreshWaterBiodiversity.org: about/running-instances/fbis.md
                   - Rwanda Biodiversity Information System: about/running-instances/rbis.md
                   - Okavango Biodiversity Information System: about/running-instances/orbis.md
-      - Users: user-docs.md
+      - Users:
+            - user/index.md
+            - Quickstart:
+                  - user/quickstart/index.md
+            - Guide:
+                  - user/guide/index.md
+                  - Key Concepts: user/guide/key-concepts.md
+                  - Registering: user/guide/registering.md
+                  - Map Interface Overview: user/guide/map-interface.md
+                  - Search: user/guide/search.md
+                  - Filtering: user/guide/filtering.md
+                  - Mapping: user/guide/mapping.md
+                  - Biodiversity Data: user/guide/biodiversity.md
+                  - Overview Panels: user/guide/panels.md
+                  - Dashboards: 
+                        - user/guide/dashboards/index.md
+                        - Key Dashboard Components: user/guide/dashboards/key-components.md
+                        - SASS Dashboard components: user/guide/dashboards/sass-components.md
+                        - Taxon dashboard: user/guide/dashboards/taxon.md
+                        - Single-site biodiversity dashboards: user/guide/dashboards/single-site-biodiversity.md
+                        - Multi-site biodiversity dashboards: user/guide/dashboards/multi-site-biodiversity.md
+                        - Single-site SASS dashboard: user/guide/dashboards/single-site-sass.md
+                        - Multi-site SASS dashboard: user/guide/dashboards/multi-site-sass.md
+                        - Water temperature dashboard: user/guide/dashboards/water-temperature.md
+                        - Physico-chemical dashboard: user/guide/dashboards/physico-chemical.md
+                  - Data Upload: user/guide/data-upload.md
+                  - References: user/guide/references.md
+            - Manual:
+                  - user/manual/index.md
       - Administrators:
             - administrator/index.md
             - Biodiversity Data:
@@ -74,16 +102,31 @@ nav:
                   - Adding Inline Images on the Landing Page: administrator/add-inline-images.md
       - Developers:
             - developer/index.md
-            - Understanding Open Source: developer/developer-docs.md
-            - Overview of the platform architecture explaining: developer/overview-platform.md
-            - Setting up your dev environment: developer/setting-up-dev-env.md
-            - Debugging: developer/debugging.md
-            - Software architecture overview: developer/software-architecture.md
-            - Developer workflow: developer/developer-workflow.md
-            - Deploying a production on server: developer/deploying-production.md
-            - Data model: developer/data-model.md
-            - Troubleshooting and social integration into the project: developer/troubleshooting.md
-            - "": developer/key-development.md #unsure where this needs to fit in
+            - Guide:
+                  - developer/guide/index.md
+                  - Architecture: developer/guide/architecture.md
+                  - Prerequisites: developer/guide/prerequisites.md
+                  - Cloning: developer/guide/cloning.md
+                  - IDE Setup: developer/guide/ide-setup.md
+                  - Building: developer/guide/building.md
+                  - Workflows: developer/guide/workflows.md
+                  - "": developer/guide/key-development.md #unsure where this needs to fit in
+            - Documentation: 
+                  - developer/documentation/index.md
+                  - "Overview": developer/documentation/overview.md
+                  - "Context Help": developer/documentation/context-help.md
+            - API:
+                  - developer/api/index.md
+                  - Reference: developer/api/manual/index.md
+                  - Guide: developer/api/guide/index.md
+            - License: about/licence.md
+      - DevOps:
+            - devops/index.md
+            - Guide: 
+                  - devops/guide/index.md
+                  - Deploying to Production: devops/guide/deploying-production.md
+            - Manual:
+                  - devops/manual/index.md
       - About:
             - Contributing: about/contributing.md
             - Citations: about/citations.md

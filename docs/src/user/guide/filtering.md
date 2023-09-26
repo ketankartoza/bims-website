@@ -1,3 +1,17 @@
+---
+title: BIMS Documentation
+summary: Central documentation site for BIMS projects
+    - Tim Sutton
+    - Helen Dallas
+    - Jeremy Prior
+date: 26-09-2023
+some_url: https://github.com/kartoza/bims-website
+copyright: Copyright 2023, Kartoza
+contact: 
+license: This program is free software; you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
+#context_id: 1234
+---
+
 # Filtering
 
 Two types of filters are supported on FBIS: Contextual filters, which filter based on the site or collection record attributes in the database, and map based filters which operate by selection of sites on the map.
@@ -9,9 +23,11 @@ One of the key technologies ‘under the hood’ in FBIS is the use of Kartoza�
 Filtering is done using a hierarchical ‘tree view’ in the filter panel (Figure 4). Tree nodes can be expanded or collapsed and selecting a specific node or set of nodes will allow you to apply the selected filters to the records displayed on the map and search result areas as shown below:
 
 **Example of some of the filters available for querying the data.**
+
 ![Contextual Filter 1](img/contextual-filter-1.png)
 
 To apply the filter click **Apply**; to clear the click **Clear**.
+
 ![Contextual Filter 2](img/contextual-filter-2.png)
 
 ### Table 1. Details of the filters provided in FBIS
@@ -36,9 +52,11 @@ To apply the filter click **Apply**; to clear the click **Clear**.
 Applying a filter returns a subset of the data based on your filter criteria, for example records in SA Ecoregion = Western Folded Mountains.  When a filter is in effect, you will see a yellow highlight of the ‘drawers’ which have filter options enabled (highlighted in yellow). The filter system only displays filter options for categories that have sites associated. For example, if you do not see an option in the ‘Provinces’ filter for Northern Cape, it means we do not have any data (sites) for that province.
 
 **Filtering sites to show only those in SA Ecoregion = Western Folded Mountains:**
+
 ![Contextual Filter 16](img/contextual-filter-16.png)
 
 **Highlighting drawers where a filter condition is active:**
+
 ![Contextual FIlter 17](img/contextual-filter-17.png)
 
 ## Map based filtering
@@ -46,4 +64,5 @@ Applying a filter returns a subset of the data based on your filter criteria, fo
 Sites may also be selected by using Lasso Control. This feature allows the user to draw a polygon around specific sites to include in dashboards. By clicking “Update search” the user will see the search results for all the sites in the polygon. Note that to close your lasso selection you must click on the starting point again.  The “Merge sites” feature allows the administrator to merge the data from the sites in the polygon into one site. The clear Polygon, resets to zero.
 
 **Drawing a polygon to select and group sites:**
+
 ![Map Based Filter 1](img/map-based-filter-1.png)

@@ -1,3 +1,17 @@
+---
+title: BIMS Documentation
+summary: Central documentation site for BIMS projects
+    - Tim Sutton
+    - Helen Dallas
+    - Jeremy Prior
+date: 26-09-2023
+some_url: https://github.com/kartoza/bims-website
+copyright: Copyright 2023, Kartoza
+contact: 
+license: This program is free software; you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
+#context_id: 1234
+---
+
 # Biodiversity Data
 
 In FBIS we have provision for freshwater fish, invertebrate, algal, adult odonate, anuran and wetland plant data, as well as SASS (invertebrate) data. Biodiversity data served include data collated for FBIS, data harvested from GBIF and data harvested from the Virtual Museum.

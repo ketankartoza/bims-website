@@ -1,3 +1,17 @@
+---
+title: BIMS Documentation
+summary: Central documentation site for BIMS projects
+    - Tim Sutton
+    - Helen Dallas
+    - Jeremy Prior
+date: 26-09-2023
+some_url: https://github.com/kartoza/bims-website
+copyright: Copyright 2023, Kartoza
+contact: 
+license: This program is free software; you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
+#context_id: 1234
+---
+
 # Mapping
 
 ## Spatial Layers
@@ -31,9 +45,11 @@ Each layer may be turned on by checking the relevant box, and the transparency o
 The order of layers in the side panel can also be adjusted by dragging layers up and down with the mouse. Layers at the top of the layer list will be shown in the foreground.
 
 **Selection of spatial layers for displaying biodiversity data:**
+
 ![Spatial Layers 2](img/spatial-layers-2.png)
 
 To view the metadata for each layer, click on the blue source ‘i’ button.
 
 **Map layer metadata display in FBIS Version 3:**
+
 ![Spatial Layers 3](img/spatial-layers-3.png)

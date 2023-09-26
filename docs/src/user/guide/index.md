@@ -1,12 +1,13 @@
 ---
-title: PROJECT_TITLE
-summary: PROJECT_SUMMARY
-    - PERSON_1
-    - PERSON_2
-date: DATE
-some_url: PROJECT_GITHUB_URL
-copyright: Copyright 2023, PROJECT_OWNER
-contact: PROJECT_CONTACT
+title: BIMS Documentation
+summary: Central documentation site for BIMS projects
+    - Tim Sutton
+    - Helen Dallas
+    - Jeremy Prior
+date: 26-09-2023
+some_url: https://github.com/kartoza/bims-website
+copyright: Copyright 2023, Kartoza
+contact: 
 license: This program is free software; you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
 #context_id: 1234
 ---
@@ -24,6 +25,6 @@ Welcome to the BIMS user guide. In this section of the documentation, we aim to 
 * **[Mapping:](mapping.md)** This documentation describes the functionalities of mapping on the platform.
 * **[Biodiversity Data:](biodiversity.md)** This section of documentation explains the biodiversity data for the platform.
 * **[Overview Panels:](panels.md)** This section explains the overview panels on the platform.
-* **[Dashboards:](dashboards.md)** 
-* **[Data Upload:](data-upload.md)** 
-* **[References:](references.md)** 
+* **[Dashboards:](dashboards/index.md)** These pages provide an over of the dashboard components of the platform.
+* **[Data Upload:](data-upload.md)** This documentation describes how to utilise the data upload forms.
+* **[References:](references.md)** This page provides the references used to create the guide.
