@@ -1,6 +1,6 @@
 # Overview of GeoContext Management
 
-In this guide we will explain the high level concepts of the GeoContext substystem which is used to derive location related data for each occurrence record added to RBIS.
+In this guide we will explain the high level concepts of the GeoContext subsystem which is used to derive location related data for each occurrence record added to RBIS.
 
 GeoContext is an independent service, available at <https://geocontext.kartoza.com/>. The purpose of GeoContext is to harvest data for point locations from a range of online databases. GeoContext allows you to register WMS/WFS/WCS layers in groups which in turn can be registered in a collection. You can then pass it a point locality and it will query every layer in the collection, returning a set of values, one for each layer under the point location.
 

@@ -77,29 +77,37 @@ nav:
       - Administrators:
             - administrator/index.md
             - Biodiversity Data:
-                  - Biodiversity Data Overview: administrator/biodiversity-data-overview.md
-                  - Preparing and checking a Master List of Taxa before uploading: administrator/master-list-preparation.md
-                  - Preparing and checking an Occurrence Data File before uploading: administrator/occurrence-data-preparation.md
-                  - Uploading a new Taxon Group (Module) and adding a Master List of Taxa for the Taxon Group: administrator/taxon-group-uploading.md
-                  - Uploading Occurrence Data: administrator/occurrence-data-uploading.md
-                  - Harvesting GBIF Data: administrator/harvesting-gbif-data.md
-                  - Managing taxa in Taxon Management: administrator/taxa-management.md
+                  - administrator/biodiversity-data/index.md
+                  - FBIS Data Management Guidelines: administrator/biodiversity-data/data-management.md
+                  - Preparing and checking a Master List of Taxa before uploading: administrator/biodiversity-data/master-list-preparation.md
+                  - Uploading a new Taxon Group (Module) and adding a Master List: administrator/biodiversity-data/taxon-group-uploading.md
+                  - Harvesting GBIF Data: administrator/biodiversity-data/harvesting-gbif-data.md
+                  - Managing taxa in Taxon Management: administrator/biodiversity-data/taxa-management.md
+                  - Preparing and checking an Occurrence Data File before uploading: administrator/biodiversity-data/occurrence-data-preparation.md
+                  - Uploading Occurrence Data: administrator/biodiversity-data/occurrence-data-uploading.md
+                  - Managing Source references: administrator/biodiversity-data/managing-source-references.md
+                  - Adding a site and biodiversity data: administrator/biodiversity-data/site-biodiversity-data.md
+                  - Adding physico-chemical data: administrator/biodiversity-data/physico-chemical-data.md
+                  - Managing BIMS Admin tables: administrator/biodiversity-data/manage-admin-tables.md
+                  - Validating records (occurrence data) and new taxa: administrator/biodiversity-data/validate-records.md
             - Working with GeoServer:
                   - administrator/geoserver/index.md
-                  - GeoServer Overview: administrator/geoserver/geoserver-overview.md
+                  - GeoServer Overview: administrator/geoserver/overview.md
                   - Loading layers into a PostgreSQL database: administrator/geoserver/loading-postgis-layers.md
                   - Publishing layers in GeoServer: administrator/geoserver/publishing-layers-in-geoserver.md
                   - Styling layers in GeoServer: administrator/geoserver/styling-layers-in-geoserver.md
                   - Visualising GeoServer layers in QGIS: administrator/geoserver/visualising-geoserver-layers-in-qgis.md
             - GIS Data in BIMS:
-                  - GeoContext Overview: administrator/geocontext-overview.md
-                  - GeoContext and Visualisation Layers: administrator/geocontext-layers.md
-                  - Working with GeoContext Data: administrator/geocontext-data.md
-                  - Harvesting GeoContext Data: administrator/geocontext-harvesting.md
-            - Customization:
-                  - Adding a Landing Page Section: administrator/adding-landing-page-section.md
-                  - Embedding Video on the Landing Page: administrator/embed-video-on-landing-page.md
-                  - Adding Inline Images on the Landing Page: administrator/add-inline-images.md
+                  - administrator/geocontext/index.md
+                  - GeoContext Overview: administrator/geocontext/overview.md
+                  - GeoContext and Visualisation Layers: administrator/geocontext/layers.md
+                  - Working with GeoContext Data: administrator/geocontext/data.md
+                  - Harvesting GeoContext Data: administrator/geocontext/harvesting.md
+            - Customisation:
+                  - administrator/customisation/index.md
+                  - Adding a Landing Page Section: administrator/customisation/adding-landing-page-section.md
+                  - Embedding Video on the Landing Page: administrator/customisation/embed-video-on-landing-page.md
+                  - Adding Inline Images on the Landing Page: administrator/customisation/add-inline-images.md
       - Developers:
             - developer/index.md
             - Guide:
@@ -130,3 +138,4 @@ nav:
       - About:
             - Contributing: about/contributing.md
             - Citations: about/citations.md
+            - License: about/licence.md
