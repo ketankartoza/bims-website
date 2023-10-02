@@ -19,8 +19,9 @@ This section provides a guide for biodiversity data administrators to mobilize a
 
 The sections covered include:
 
-* **[FBIS Data Management Guidelines:](data-management.md)**
-* **[Preparing and checking a Master List of Taxa before uploading:](master-list-preparation.md)**
+* **[FBIS Data Management Guidelines:](data-management.md)** These documents serves as a guideline for the management of freshwater biodiversity data in the Freshwater Biodiversity Information System (FBIS).
+* **[Preparing and checking a Master List of Taxa before uploading:](master-list-preparation.md)** This section highlights issues and specific checks to improve accuracy of the Master List.
+<!-- These haven't been populated yet -->
 * **[Uploading a new Taxon Group (Module) and adding a Master List:](taxon-group-uploading.md)**
 * **[Harvesting GBIF Data:](harvesting-gbif-data.md)**
 * **[Managing taxa in Taxon Management:](taxa-management.md)**

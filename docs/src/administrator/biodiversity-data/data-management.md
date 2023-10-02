@@ -19,7 +19,7 @@ Data management guide for the Freshwater Biodiversity Information System (FBIS):
 
 ## Introduction
 
-These document serves as a guideline for the management of freshwater biodiversity data in the Freshwater Biodiversity Information System (FBIS). It provides an overview of the recommended steps, processes and systems for sourcing, extracting, consolidating, uploading and serving biodiversity data in an information system such as FBIS. It is based on the experiences gained and systems developed during the development of the Freshwater Biodiversity Information System (FBIS) in South Africa (Freshwater Biodiversity Information System. 2020. FBIS Version 3; Dallas et al. 2022).
+These documents serves as a guideline for the management of freshwater biodiversity data in the Freshwater Biodiversity Information System (FBIS). It provides an overview of the recommended steps, processes and systems for sourcing, extracting, consolidating, uploading and serving biodiversity data in an information system such as FBIS. It is based on the experiences gained and systems developed during the development of the Freshwater Biodiversity Information System (FBIS) in South Africa (Freshwater Biodiversity Information System. 2020. FBIS Version 3; Dallas et al. 2022).
 
 ## Managing data consolidation
 
@@ -101,7 +101,6 @@ The format of the Master List is important to ensure consistency for ingestion o
 * Taxonomic status
 * Origin (Native, Non-native, Unknown)
 * Endemism (Endemism categories):
-
   * Micro-endemic level 2 (Endemic to a single river or wetland)
   * Micro-endemic level 1 (Endemic to less than 5 rivers or wetlands)
   * Regional endemic level 2 (Endemic to a single primary catchment)
@@ -110,9 +109,7 @@ The format of the Master List is important to ensure consistency for ingestion o
   * Subregional endemic (Endemic to southern Africa)
   * Widespread (Occurs beyond southern Africa)
   * Unknown (Endemism is unknown)
-
-* Global Conservation status [The IUCN Red List of Threatened Species website (IUCN Red List, 2020) classifies species into eight main categories based on their extinction risk. Each species was classified:
-  
+* Global Conservation status The IUCN Red List of Threatened Species website (IUCN Red List, 2020) classifies species into eight main categories based on their extinction risk. Each species was classified:
   * Extinct
   * Critically Endangered
   * Endangered
@@ -121,9 +118,7 @@ The format of the Master List is important to ensure consistency for ingestion o
   * Least Concern
   * Data Deficient
   * Not Evaluated
-
-* National Conservation status [The SANBI National Red List Categories  (SANBI, 2020) classifies species into 12 main categories based on their extinction risk. Each species was classified as:
-
+* National Conservation status The SANBI National Red List Categories  (SANBI, 2020) classifies species into 12 main categories based on their extinction risk. Each species was classified as:
   * Extinct
   * Extinct in the Wild
   * Regionally Extinct
@@ -138,7 +133,6 @@ The format of the Master List is important to ensure consistency for ingestion o
   * Data Deficient - Insufficient Information
   * Data Deficient - Taxonomically Problematic Not Evaluated
   * Least Concern
-
 * Common Name
 * Former scientific names
 * Division (algae only)
