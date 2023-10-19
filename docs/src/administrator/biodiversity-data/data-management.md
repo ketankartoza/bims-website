@@ -142,7 +142,7 @@ The format of the Master List is important to ensure consistency for ingestion o
 * Wetland Indicator Status (plants only)
 * SANBI RedList Links
 
-A separate Master List of Species / Taxa needs to be created for each group for which biodiversity data are served on FBIS. The Master List is ideally created before the consolidation of data so that the correct GBIF Taxonomic Backbone (https://www.gbif.org/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c) is used for the data consolidation files. The taxonomy from GBIF should be used when the taxon is on GBIF. The FBIS team can check if the taxon is on GBIF using the following link: https://www.gbif.org/species/1 and insert the relevant species, genus, family etc. in the “Select a species” box.
+A separate Master List of Species / Taxa needs to be created for each group for which biodiversity data are served on FBIS. The Master List is ideally created before the consolidation of data so that the correct GBIF Taxonomic Backbone ([https://www.gbif.org/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c](https://www.gbif.org/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c)) is used for the data consolidation files. The taxonomy from GBIF should be used when the taxon is on GBIF. The FBIS team can check if the taxon is on GBIF using the following link: [https://www.gbif.org/species/1](https://www.gbif.org/species/1) and insert the relevant species, genus, family etc. in the “Select a species” box.
 
 ![Data Management 2](img/data-management-2.png)
 
@@ -355,6 +355,6 @@ All biodiversity data served on FBIS need to have associated Metadata (Figure 2)
 
 Dallas HF, Shelton JM, Sutton T, Tri Ciputra D, Kajee M and Job N.  2022. The Freshwater Biodiversity Information System (FBIS) – mobilising data for evaluating long-term change in South African rivers, African Journal of Aquatic Science 47(3): 291-306, DOI: 10.2989/16085914.2021.1982672
 <!-- comment for formatting -->
-Freshwater Biodiversity Information System (FBIS). 2022. Downloaded from https://freshwaterbiodiversity.org on [current date]
+Freshwater Biodiversity Information System (FBIS). 2022. Downloaded from [https://freshwaterbiodiversity.org](https://freshwaterbiodiversity.org) on [current date]
 <!-- comment for formatting -->
 Freshwater Biodiversity Information System (FBIS). 2022. FBIS User Manual. Prepared by the Freshwater Research Centre and Kartoza.
