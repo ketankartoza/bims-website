@@ -83,7 +83,7 @@ Select the reference category and insert the DOI or URL and click the search but
 
 Select the reference category and select from the dropdown list of titles, if the published report or thesis is already uploaded, or select “Upload new” to add a new published report or thesis.
 
-![Managing Source References 5](./img/managing-source-references-.png)
+![Managing Source References 5](./img/managing-source-references-5.png)
 
 When uploading a new published report or thesis, complete the fields using the format indicated including Author(s), Year, Source, Title, Description (if desired) and Url or upload file. Confirm that you are owner of the document being added and Upload. This is then submitted.
 
