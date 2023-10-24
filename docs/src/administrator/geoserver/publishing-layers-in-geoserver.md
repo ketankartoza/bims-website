@@ -1,3 +1,17 @@
+---
+title: BIMS Documentation
+summary: Central documentation site for BIMS projects
+    - Tim Sutton
+    - Admire Nyakudya
+    - Jeremy Prior
+date: 01-08-2022
+some_url: https://github.com/kartoza/bims-website
+copyright: Copyright 2023, Kartoza
+contact: 
+license: This program is free software; you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
+#context_id: 1234
+---
+
 # Publishing vector data in GeoServer
 
 GeoServer can publish vector data from various sources i.e shapefile, geopackage. In our
@@ -54,10 +68,10 @@ or you can do it yourself if the Resource Browser plugin is installed.
 **Step 3.** Add a new store selecting the appropriate raster data type. The preferred format is Geotiff.
 ![raster-data-type](img/raster-data-type.png)
 
-**Step 4.** Fill in the raster dialog as depicted below:
+**Step 4.** Fill in the raster dialogue as depicted below:
 ![raster-add.png](img/raster-navi.png)
 
-**Step 5.** Save the values in the dialog and proceed to publish the layer.
+**Step 5.** Save the values in the dialogue and proceed to publish the layer.
 
 **Step 6.** On the **Data** tab edit the following properties.
 

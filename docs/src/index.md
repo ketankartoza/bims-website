@@ -39,5 +39,3 @@ A scientific article has been published in the African Journal of Aquatic Scienc
 Dallas HF, Shelton JM, Sutton T, Tri Ciputra D, Kajee M and Job N.  2021. Development of a freshwater biodiversity information system for evaluating long-term change in rivers in South Africa.  African Journal of Aquatic Science. doi.org/10.2989/16085914.2021.1982672
 
 The link to the FBIS site: [https://freshwaterbiodiversity.org/](https://freshwaterbiodiversity.org/)
-
-This manual aims to provide details on key aspects of FBIS and expand on its functionality. It is accompanied by a series of video clips that demonstrate various workflows that users are likely to need (a short video tutorial series is available ([here](https://www.youtube.com/@freshwaterresearchcentre2825))).

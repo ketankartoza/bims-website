@@ -220,7 +220,8 @@ This component is present in these dashboards:
 * Single-site biodiversity dashboards
 * Multi-site biodiversity dashboards
 
----
+----
+
 **A general note for all charts**
 When downloading a chart using the   icon, the resulting downloaded file will be saved to your device as an ‘SVG’ (Scalable Vector Graphic) file or in some cases a .png file. This file can be arbitrarily resized and maintain its quality, allowing it to be used in print publications or large format printing projects.
 <!-- comment for formatting -->
@@ -228,7 +229,7 @@ To use the SVG, use the **Insert** -> **Pictures** -> **From File** option in Wo
 
 ![Conservation status 2](img/conservation-status-2.png)
 
----
+----
 
 ## Occurrence data
 

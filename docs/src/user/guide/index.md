@@ -15,7 +15,9 @@ license: This program is free software; you can redistribute it and/or modify it
 # User guide
 <!-- Narrative Instructions on how to use the product/platform -->
 
-Welcome to the BIMS user guide. In this section of the documentation, we aim to show users how to utilise the platform effectively, customise their profiles and so forth. Here is a brief overview of the content provided here:
+Welcome to the BIMS user guide. In this section of the documentation, we aim to show users how to utilise the platform effectively, customise their profiles and so forth. This guide aims to provide details on key aspects of FBIS and expand on its functionality. It is accompanied by a series of video clips that demonstrate various workflows that users are likely to need (a short video tutorial series is available ([here](https://www.youtube.com/playlist?list=PLSbcS_PS6gw3Kl9s1OU_aLy27zCL1wfdU))).
+
+Here is a brief overview of the content provided here:
 
 * **[Key Concepts:](key-concepts.md)** This section explains some of the key concepts of the platform.
 * **[Registering:](registering.md)** This page will show you how to register on the platform and then how to log in.

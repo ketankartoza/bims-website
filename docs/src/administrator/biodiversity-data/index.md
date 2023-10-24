@@ -21,14 +21,13 @@ The sections covered include:
 
 * **[FBIS Data Management Guidelines:](data-management.md)** These documents serves as a guideline for the management of freshwater biodiversity data in the Freshwater Biodiversity Information System (FBIS).
 * **[Preparing and checking a Master List of Taxa before uploading:](master-list-preparation.md)** This section highlights issues and specific checks to improve accuracy of the Master List.
-<!-- These haven't been populated yet -->
-* **[Uploading a new Taxon Group (Module) and adding a Master List:](taxon-group-uploading.md)**
-* **[Harvesting GBIF Data:](harvesting-gbif-data.md)**
-* **[Managing taxa in Taxon Management:](taxa-management.md)**
-* **[Preparing and checking an Occurrence Data File before uploading:](occurrence-data-preparation.md)**
-* **[Uploading Occurrence Data:](occurrence-data-uploading.md)**
-* **[Managing Source references:](managing-source-references.md)**
-* **[Adding a site and biodiversity data:](site-biodiversity-data.md)**
-* **[Adding physico-chemical data:](physico-chemical-data.md)**
-* **[Managing BIMS Admin tables:](manage-admin-tables.md)**
-* **[Validating records (occurrence data) and new taxa:](validate-records.md)**
+* **[Uploading a new Taxon Group (Module) and adding a Master List:](taxon-group-uploading.md)** This document explains the steps that super users can follow to upload a new taxon group and an associated master list.
+* **[Harvesting GBIF Data:](harvesting-gbif-data.md)** This section outlines the steps for harvesting GBIF data.
+* **[Managing taxa in Taxon Management:](taxa-management.md)** This documentation describes a specific administration module has been developed to allow administrators to manage taxa within the information system.
+* **[Preparing and checking an Occurrence Data File before uploading:](occurrence-data-preparation.md)** This page serves as a guideline for preparing an occurrence data file for upload.
+* **[Uploading Occurrence Data:](occurrence-data-uploading.md)** This section describes the steps required for uploading occurrence data.
+* **[Managing Source references:](managing-source-references.md)** This document pertains to a module that allows administrators to manage metadata and citations associated with each biological occurrence record.
+* **[Adding a site and biodiversity data:](site-biodiversity-data.md)** This section explains how an administrator or user adds a site and data to a site.
+* **[Adding physico-chemical data:](physico-chemical-data.md)** This section explains how an administrator, or user, adds physico-chemical data to a site or prepares an excel template for bulk uploading of physico-chemical data for multiple sites and or sampling dates.
+* **[Managing BIMS Admin tables:](manage-admin-tables.md)** This document is a list of actions related to the Site Administration including the BIMS table management that an administrator (super user status) may need to edit or check.
+* **[Validating records (occurrence data) and new taxa:](validate-records.md)** This section explains the process when a user adds data to RBIS, and how the administrator views, checks and validates the occurrence record or new taxon.

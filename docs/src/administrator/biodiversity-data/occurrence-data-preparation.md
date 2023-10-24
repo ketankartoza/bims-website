@@ -25,10 +25,10 @@ Standardised data upload templates in excel have been generated for four biodive
 
 The following data upload templates are provided:
 
-* FBIS Fish Data Upload Template.xlsx
-* FBIS Algae Data Upload Template.xlsx
-* FBIS Invertebrate Data Upload Template.xlsx
-* FBIS Anuran Data Upload Template.xlsx
+* <span style="color: #70ad47;">FBIS Fish Data Upload Template.xlsx</span>
+* <span style="color: #70ad47;">FBIS Algae Data Upload Template.xlsx</span>
+* <span style="color: #70ad47;">FBIS Invertebrate Data Upload Template.xlsx</span>
+* <span style="color: #70ad47;">FBIS Anuran Data Upload Template.xlsx</span>
 
 Many of the columns are the same for each group, although some additional columns are included for algae, and the dropdown options (e.g. biotopes) sometimes vary amongst groups. The common columns used in each group are given in Table 1. Relevant dropdown lists are provided in each template and additional group-specific columns are included in the relevant templates. <span style="color: red;">Those column headers in red have to be filled in the occurrence upload file. See section on **Check the Source Reference** for details of which columns are relevant for different reference categories.</span> Those column headers <span style="background-color:#c1ebaa;">shaded green</span> use dropdown lists in the excel file. These can be modified in the Admin page (BIMS).
 

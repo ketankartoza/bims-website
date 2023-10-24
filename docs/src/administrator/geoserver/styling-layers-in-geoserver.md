@@ -1,3 +1,17 @@
+---
+title: BIMS Documentation
+summary: Central documentation site for BIMS projects
+    - Tim Sutton
+    - Admire Nyakudya
+    - Jeremy Prior
+date: 01-08-2022
+some_url: https://github.com/kartoza/bims-website
+copyright: Copyright 2023, Kartoza
+contact: 
+license: This program is free software; you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
+#context_id: 1234
+---
+
 # Cartography
 
 GeoServer provides a couple of ways to symbolize vector and raster data. The most
@@ -6,7 +20,7 @@ GeoServer also adds some flavour to the format which enriches how to symbolize v
 data. Other less common ways to symbolize data include using CSS(Cascading style sheets) and YSLD.
 
 There are various open source software which allows you to export SLD natively. Since we are
-familiar with QGIS we will use it as our defacto Desktop GIS system.
+familiar with QGIS we will use it as our de facto Desktop GIS system.
 
 > Although QGIS can export SLD it does not produce a 1-1 mapping of the rich
 cartography that is available in QGIS. It is recommended to use simple styles when your goal

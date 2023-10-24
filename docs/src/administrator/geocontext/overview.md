@@ -1,3 +1,17 @@
+---
+title: BIMS Documentation
+summary: Central documentation site for BIMS projects
+    - Tim Sutton
+    - Dimas Ciputra
+    - Jeremy Prior
+date: 01-08-2022
+some_url: https://github.com/kartoza/bims-website
+copyright: Copyright 2023, Kartoza
+contact: 
+license: This program is free software; you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
+#context_id: 1234
+---
+
 # Overview of GeoContext Management
 
 In this guide we will explain the high level concepts of the GeoContext subsystem which is used to derive location related data for each occurrence record added to RBIS.

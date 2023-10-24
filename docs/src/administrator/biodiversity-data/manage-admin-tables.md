@@ -15,7 +15,7 @@ license: This program is free software; you can redistribute it and/or modify it
 
 # Managing BIMS Admin tables
 
-Several backend tables can be updated and managed by administrators, including the Biodiversity Information Management System (BIMS), and are accessible via the Admin Page.  Here I provide a list of actions related to the Site Administration including the BIMS table management that an administrator (super user status) may need to edit or check.  I have only described the tables that the administrator needs to be able to revise, and not all the tables in the Site Administration and BIMS. They are described chronologically as they appear in Site Administration. This document will continually need to be updated as new administration functions are added.
+Several backend tables can be updated and managed by administrators, including the Biodiversity Information Management System (BIMS), and are accessible via the Admin Page. Provided here, is a list of actions related to the Site Administration including the BIMS table management that an administrator (super user status) may need to edit or check. Currently, only the tables that the administrator needs to be able to revise have been described, and not all the tables in the Site Administration and BIMS. They are described chronologically as they appear in Site Administration. This document will continually need to be updated as new administration functions are added.
 
 **Link to specific sub-sections in BIMS as well as other admin tasks:**
 

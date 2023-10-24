@@ -1,3 +1,17 @@
+---
+title: BIMS Documentation
+summary: Central documentation site for BIMS projects
+    - Tim Sutton
+    - Admire Nyakudya
+    - Jeremy Prior
+date: 01-08-2022
+some_url: https://github.com/kartoza/bims-website
+copyright: Copyright 2023, Kartoza
+contact: 
+license: This program is free software; you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
+#context_id: 1234
+---
+
 # Loading spatial data
 
 Spatial data consist of vector and raster data. In this guide we will explain the
@@ -20,7 +34,7 @@ on the easier methods. This usually involves the following:
 
 **Step 3.** Click to create a new database connection. ![edit-connection.png](img/edit-connection.png)
 
-**Step 4.** Populate the dialog with your user credentials. ![postgresql-connection](img/postgresql-details.png)
+**Step 4.** Populate the dialogue with your user credentials. ![postgresql-connection](img/postgresql-details.png)
 
 **Step 5.** Save your connection parameters.
 
@@ -53,8 +67,8 @@ When using this method it is assumed a user has already defined a database conne
 **DBManager**. `Database Menu > DB Manager`
 ![db-manager-panel.png](img/db-manager-1.png)
 **Step 2.** Select your PostgreSQL connection.
-**Step 3.** Click on the **Import Layer/File** on top of the DB Manager dialog.
-**Step 4.** Populate the import layer dialog choosing the appropriate options.
+**Step 3.** Click on the **Import Layer/File** on top of the DB Manager dialogue.
+**Step 4.** Populate the import layer dialogue choosing the appropriate options.
 ![import-layer.png](img/import-layer-options.png)
 **Step 5.** Accept the values and wait for the layer to be loaded.
 
