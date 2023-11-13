@@ -32,4 +32,4 @@ This tutorial will lead you through all of these steps. We expect that you are a
 
 The following YouTube video walks through the steps described in this section of the documentation in detail with examples. If you are viewing this as a PDF or on the web, you can click on the image below to open the YouTube video.
 
-[![Overview](img/geocontext-overview-youtube.png)](https://youtu.be/DkS6yvnuypc)
+[![Overview](img/geocontext-overview-youtube.png)](https://youtu.be/YBvIeLTXj7g)
