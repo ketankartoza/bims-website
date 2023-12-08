@@ -121,7 +121,8 @@ nav:
                   - "": developer/guide/key-development.md #unsure where this needs to fit in
             - Documentation: 
                   - developer/documentation/index.md
-                  - "Overview": developer/documentation/overview.md
+                  - "Simple Workflow": developer/documentation/easy-workflow.md
+                  - "Advanced Workflow": developer/documentation/overview.md
                   - "Context Help": developer/documentation/context-help.md
             - API:
                   - developer/api/index.md
