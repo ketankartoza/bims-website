@@ -30,3 +30,4 @@ Here is a brief overview of the content provided here:
 * **[Dashboards:](dashboards/index.md)** These pages provide an over of the dashboard components of the platform.
 * **[Data Upload:](data-upload.md)** This documentation describes how to utilise the data upload forms.
 * **[References:](references.md)** This page provides the references used to create the guide.
+* **[Mobile Application Tutorials:](./mobile-app-videos.md)** This page contains tutorial videos for using the mobile application.
